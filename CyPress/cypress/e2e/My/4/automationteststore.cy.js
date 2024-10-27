@@ -3,6 +3,7 @@
 // / <reference types="cypress-xpath" / 
 // ./node_modules/.bin/cypress open
 // ./node_modules/.bin/cypress run --spec cypress/e2e/My/4/automationteststore.cy.js
+//
 
 context('automationteststore', () => {
     beforeEach(() => {
@@ -10,13 +11,15 @@ context('automationteststore', () => {
     })
 
 
-    // it('1. Odwiedzenie strony i sprawdzenie tytułu Odwiedź stronę główną aplikacji i sprawdź, czy tytuł strony jest poprawny.', () => {
+    it('1. Odwiedzenie strony i sprawdzenie tytułu Odwiedź stronę główną aplikacji i sprawdź, czy tytuł strony jest poprawny.', () => {
+        cy.title()
+            .should('equal', 'A place to practice your automation skills!')
 
-    // });
+    });
 
-    // it('2. Kliknięcie przycisku na stronie Odwiedź stronę i kliknij przycisk, aby przejść do innej sekcji. ', () => {
+    it('2. Kliknięcie przycisku na stronie Odwiedź stronę i kliknij przycisk, aby przejść do innej sekcji. ', () => {
 
-    // });
+    });
 
     it('3. Wypełnienie formularza i jego wysłanie Odwiedź stronę z formularzem, wypełnij go i wyślij. ', () => {
 
@@ -61,7 +64,7 @@ context('automationteststore', () => {
         cy.get('#block_frame_bestsellers_1771 .thumbnail')
     })
 
-    it.only('8. Wypełnienie formularza z walidacją Odwiedź stronę z formularzem, wypełnij go niepoprawnie, sprawdź komunikaty walidacyjne, a następnie popraw i wyślij. ', () => {
+    it('8. Wypełnienie formularza z walidacją Odwiedź stronę z formularzem, wypełnij go niepoprawnie, sprawdź komunikaty walidacyjne, a następnie popraw i wyślij. ', () => {
         cy.visit('https://automationteststore.com/index.php?rt=content/contact')
         cy.get('#ContactUsFrm_first_name')
             .type('Alicja')
@@ -80,18 +83,24 @@ context('automationteststore', () => {
                 cy.get('button[type="submit"].btn.btn-primary.lock-on-click[title="Submit"]')
                     .click();
             }
-
         })
     })
 
-    it('9.      Interakcja z elementem dynamicznym Odwiedź stronę, kliknij przycisk, aby załadować dynamiczny element, a następnie sprawdź jego zawartość. ', () => {
+    it('9. Interakcja z elementem dynamicznym Odwiedź stronę, kliknij przycisk, aby załadować dynamiczny element, a następnie sprawdź jego zawartość. ', () => {
 
     });
 
 
-    // it('10.  Sprawdzenie przekierowania po zalogowaniu Odwiedź stronę logowania, zaloguj się i sprawdź, czy nastąpiło przekierowanie do strony głównej. ', () => {
-
-    // });
+    it('10.  Sprawdzenie przekierowania po zalogowaniu Odwiedź stronę logowania, zaloguj się i sprawdź, czy nastąpiło przekierowanie do strony głównej. ', () => {
+        cy.get('#customer_menu_top > li > a')
+            .click()
+        cy.get('#loginFrm_loginname')
+            .type('kkkkkksdfsfsedc')
+        cy.get('#loginFrm_password')
+            .type('%#TGSDfsdzbsfd')
+        cy.get('#loginFrm > fieldset > .btn')
+            .click()
+    });
 
 })
 

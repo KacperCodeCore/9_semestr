@@ -4,6 +4,7 @@
 // ./node_modules/.bin/cypress open
 // ./node_modules/.bin/cypress run --spec cypress/e2e/My/4/automationteststore.cy.js
 //
+//
 
 context('automationteststore', () => {
     beforeEach(() => {

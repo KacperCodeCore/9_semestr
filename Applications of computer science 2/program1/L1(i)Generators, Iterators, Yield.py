@@ -106,7 +106,7 @@ for i in iteratorEksperyment:
 
 #########################################################################################################
 #####   Iterator w definicji klasy (OPCJONALNIE)                                                    #####
-#####   https://www.programiz.com/python-programming/iterator                                       #####
+#####                                             #####
 #########################################################################################################
 '''
 # w poniższej klasie powinniśmy mieć definicję zarówno nexta jak i iter aby móc korzystać z metody next i pętli for
@@ -150,6 +150,19 @@ for i in potegowanie:
     print(i)
 '''
 #print(next(potegowanie))
+
+def exponential(number, iteration):
+    for i in range(iteration):
+        yield number * i
+
+
+myExponential = exponential(2,3)
+
+print(next(myExponential))
+print(next(myExponential))
+print(next(myExponential))
+    
+
 #print(next(nexty))
 #print(next(potegowanie))
 #print(next(potegowanie))

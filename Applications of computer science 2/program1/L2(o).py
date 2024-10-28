@@ -121,7 +121,7 @@ def filter_available_products():
     print("Dostępne produkty:", available_products)
 
 filter_available_products()
-# Dostępne produkty: ['Laptop', 'Tablet']
+# Available products: ['Laptop', 'Tablet']
 '''
 
 

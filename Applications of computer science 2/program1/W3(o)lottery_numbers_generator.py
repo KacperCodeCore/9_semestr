@@ -30,13 +30,12 @@ for idx, set_of_numbers in enumerate(lottery_numbers, start=1):
 
 
 # Save to CSV file
-with open("lottery_numbers.csv", "w", newline="") as csvfile:
-    csv_write = csv.writer(csvfile)
+with open("lottery_numbers.csv", "w", newline="") as csvFile:
+    csv_write = csv.writer(csvFile)
     csv_write.writerow(["Set Number", "Number"])  # header
     for idx, set_of_numbers in enumerate(lottery_numbers, start=1):
         csv_write.writerow([idx, set_of_numbers])
 
 # save to json file
 with open("lottery_numbers.json", "w") as jsonFile:
-
     json.dump(lottery_numbers, jsonFile)

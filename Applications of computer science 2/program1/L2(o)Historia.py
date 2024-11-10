@@ -1,5 +1,5 @@
-##### - zip_longest()
-'''
+#####1 - zip_longest()
+"""
 from itertools import zip_longest
 
 def zipLongestExample():
@@ -22,12 +22,11 @@ generatedItems = generator()
 # print(next(generatedItems))
 # print(next(generatedItems))
 # print(next(generatedItems))
-'''
-
+"""
 
 
 # ##### - repeat()
-'''
+"""
 from itertools import repeat
 
 def repeat_message(message, count):
@@ -36,16 +35,16 @@ def repeat_message(message, count):
 
 # Wywołanie funkcji, aby powtórzyć komunikat "Hello, World!" 5 razy
 repeat_message("Hello, World!", 5)
-'''
+"""
 
-'''
+"""
 # Tworzenie listy o długości 10, wypełnionej wartością 0
 zeros = list(repeat(0, 10))
 print(zeros)
-'''
+"""
 
 ##### - accumulate()
-'''
+"""
 from itertools import accumulate
 
 def cumulative_sum():
@@ -60,11 +59,11 @@ def cumulative_sum():
 
 # Wywołanie funkcji
 cumulative_sum()
-'''
+"""
 
 
 ##### - chain()
-'''
+"""
 from itertools import chain
 
 def flatten_orders():
@@ -77,17 +76,17 @@ def flatten_orders():
     tuple_data = (4, 5, 6)
     set_data = {7, 8, 9}
 
-    # Połączenie wszystkich przedmiotów
+    # All items
     all_items = list(chain(orders,list_data,tuple_data,set_data))
 
-    # Wyświetlenie listy przedmiotów
-    print("Wszystkie przedmioty:", all_items)
+    # display list of items
+    print("All items:", all_items)
 
-# Wywołanie funkcji
+# Function call
 flatten_orders()
-'''
+"""
 
-'''
+"""
 from itertools import chain
 def flatten_orders():
     orders = [
@@ -96,20 +95,19 @@ def flatten_orders():
         ["Tomato", "Cucumber"]
     ]
 
-    # Połączenie wszystkich przedmiotów
+    # All items
     all_items = list(chain.from_iterable(orders))
 
-    # Wyświetlenie listy przedmiotów
-    print("Wszystkie przedmioty:", all_items)
+    # display list of items
+    print("All items:", all_items)
 
-# Wywołanie funkcji
+# Function call
 flatten_orders()
-'''
-
+"""
 
 
 ##### - compress()
-'''
+"""
 from itertools import compress
 
 def filter_available_products():
@@ -122,11 +120,11 @@ def filter_available_products():
 
 filter_available_products()
 # Available products: ['Laptop', 'Tablet']
-'''
+"""
 
 
 ##### - dropwhile()
-'''
+"""
 from itertools import dropwhile
 
 def filter_temperatures():
@@ -141,21 +139,21 @@ def filter_temperatures():
 
 # Call the function
 filter_temperatures()
-'''
+"""
 
 
-'''
+"""
 from itertools import dropwhile
 
 numbers = [1, 2, 3, 4, 5, 6]
 predicate = lambda x: x < 4
 result = list(dropwhile(predicate, numbers))
 print(result)  # Output: [4, 5, 6]
-'''
+"""
 
 
 ##### - starmap()
-'''
+"""
 from itertools import starmap
 
 # Define a function that takes two arguments
@@ -169,11 +167,11 @@ numbers = [(1, 2), (3, 4), (5, 6)]
 result = list(starmap(add, numbers))
 
 print(result)  # Output: [3, 7, 11]
-'''
+"""
 
 
 ##### - takewhile()
-'''
+"""
 from itertools import takewhile
 
 # Sample list of numbers
@@ -186,17 +184,19 @@ predicate = lambda x: x < 6
 result = list(takewhile(predicate, numbers))
 
 print(result)  # Output: [1, 2, 3, 4, 5]
-'''
+"""
 
 
 ##### - product()
-'''
+# """
 from itertools import product
 
 # Sample attributes for a product
-colors = ['red', 'blue']
-sizes = ['S', 'M', 'L']
-types = ['t-shirt', 'hoodie']
+colors = ["red", "blue, yellow"]
+sizes = ["S", "M", "L"]
+types = ["t-shirt", "hoodie"]
+
+twoSequences = list(product)
 
 # Compute the Cartesian product of the attributes
 product_combinations = list(product(colors, sizes, types))
@@ -204,4 +204,5 @@ product_combinations = list(product(colors, sizes, types))
 # Display the results
 for combination in product_combinations:
     print(combination)
-'''
+
+# """

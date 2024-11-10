@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 const { promises } = require("combined-stream");
+const { invoke } = require("lodash");
 
 // / <reference types="cypress-xpath" /
 // ./node_modules/.bin/cypress open
@@ -26,7 +27,7 @@ context("Looking for dynamic element name", () => {
     });
   });
 
-  it.only("const", () => {
+  it("const", () => {
     // cy.get('#categorymenu')
     cy.get(".nav-pills.categorymenu > li > a").each((items) => {
       cy.wrap(items)
@@ -34,6 +35,28 @@ context("Looking for dynamic element name", () => {
         .then((text) => {
           cy.log(text);
         });
+    });
+  });
+
+  it.only("alias", () => {
+    cy.get(".thumbnail").as("productThumbnail"); //Alias
+    cy.get("@productThumbnail").should("have.length", 16);
+    cy.get("@productThumbnail").each((thumbnail) => {
+      cy.wrap(thumbnail)
+        // .invoke("hasClass")
+        .find(".pricetag.jumbotron")
+        .find('a.productcart[titme="Add to Cart"]');
+      // .should("have.attr", "tittle", "Add to Cart");
+      // .find('a.productcart[title="Add to Cart"]')
+      // .should("exist");
+      cy.wrap(thumbnail).find(".pricetag.jumbotron");
+      // .should("have.attr", "title", "Add to Cart");
+      // // .invoke("hasClass")
+      // .contains()
+      // .find('a.productcart[titme="Add to Cart"]');
+      // .should("have.attr", "tittle", "Add to Cart");
+      // .find('a.productcart[title="Add to Cart"]')
+      // .should("exist");
     });
   });
 });

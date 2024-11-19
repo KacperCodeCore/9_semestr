@@ -1,0 +1,3 @@
+cd "D:\GitHub\9_semestr\Applications of computer science 2\program1"
+
+source /d/GitHub/9_semestr/Applications\ of\ computer\ science\ 2/program1/.venv/Scripts/activate

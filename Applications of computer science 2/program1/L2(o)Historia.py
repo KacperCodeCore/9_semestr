@@ -33,12 +33,12 @@ def repeat_message(message, count):
     for _ in repeat(message, count):
         print(message)
 
-# Wywołanie funkcji, aby powtórzyć komunikat "Hello, World!" 5 razy
+# Function call, print "Hello, World!" 5x
 repeat_message("Hello, World!", 5)
 """
 
 """
-# Tworzenie listy o długości 10, wypełnionej wartością 0
+# Function call, print "Hello, World!" 0x
 zeros = list(repeat(0, 10))
 print(zeros)
 """
@@ -50,14 +50,14 @@ from itertools import accumulate
 def cumulative_sum():
     monthly_revenue = [1, 22, 333, 3334, 20008]
     
-    # Obliczanie narastających sum
+    # Calculate next sum
     cumulative_revenue = list(accumulate(monthly_revenue))
 
-    # Wyświetlenie narastających dochodów
+    # display growing numbers
     for month, revenue in enumerate(cumulative_revenue, 1):
         print(f"Miesiąc {month}: Łączny dochód = {revenue}")
 
-# Wywołanie funkcji
+# Function call
 cumulative_sum()
 """
 

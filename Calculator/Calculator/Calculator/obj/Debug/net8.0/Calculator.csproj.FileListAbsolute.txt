@@ -112,4 +112,8 @@ D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\zh-Hant\Mi
 D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\Xunit.StaFact.dll
+D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\Castle.Core.dll
+D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\FluentAssertions.dll
+D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\FluentAssertions.ArgumentMatchers.Moq.dll
+D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\Moq.dll
 D:\GitHub\9_semestr\Calculator\Calculator\Calculator\bin\Debug\net8.0\log4net.config

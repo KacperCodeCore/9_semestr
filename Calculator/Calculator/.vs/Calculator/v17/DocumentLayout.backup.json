@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\stringhelper\\palindromes.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\stringhelper\\palindromes.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\stringhelper\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\stringhelper\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\product\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\product\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -11,12 +47,8 @@
       "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|d:\\github\\9_semestr\\calculator\\calculator\\calculator\\dataservice\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBE5EBA-2054-400B-B630-288D8B4B2D64}|Calculator\\Calculator.csproj|solutionrelative:calculator\\dataservice\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,52 +74,156 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "palindromes.csv",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\StringHelper\\palindromes.csv",
+              "RelativeDocumentMoniker": "Calculator\\StringHelper\\palindromes.csv",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\StringHelper\\palindromes.csv",
+              "RelativeToolTip": "Calculator\\StringHelper\\palindromes.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-12-11T16:10:58.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StringHelper.cs",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\StringHelper\\StringHelper.cs",
+              "RelativeDocumentMoniker": "Calculator\\StringHelper\\StringHelper.cs",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\StringHelper\\StringHelper.cs",
+              "RelativeToolTip": "Calculator\\StringHelper\\StringHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:09:22.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Calculator\\Calculator.cs",
+              "RelativeDocumentMoniker": "Calculator\\Calculator\\Calculator.cs",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Calculator\\Calculator.cs",
+              "RelativeToolTip": "Calculator\\Calculator\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:31:05.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Calculator\\Product\\ProductRepository.cs",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\ProductRepository.cs",
+              "RelativeToolTip": "Calculator\\Product\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:22:51.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\Product.cs",
+              "RelativeDocumentMoniker": "Calculator\\Product\\Product.cs",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\Product.cs",
+              "RelativeToolTip": "Calculator\\Product\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:22:41.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\OrderService.cs",
+              "RelativeDocumentMoniker": "Calculator\\Product\\OrderService.cs",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\OrderService.cs",
+              "RelativeToolTip": "Calculator\\Product\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:02:01.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Calculator\\Product\\IProductRepository.cs",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Product\\IProductRepository.cs",
+              "RelativeToolTip": "Calculator\\Product\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:58:39.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\DataService\\DataService.cs",
+              "RelativeDocumentMoniker": "Calculator\\DataService\\DataService.cs",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\DataService\\DataService.cs",
+              "RelativeToolTip": "Calculator\\DataService\\DataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:34:48.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Calculator.csproj",
               "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Calculator.csproj",
               "RelativeDocumentMoniker": "Calculator\\Calculator.csproj",
               "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Calculator.csproj",
               "RelativeToolTip": "Calculator\\Calculator.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-10T15:00:21.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Program.cs",
               "RelativeDocumentMoniker": "Calculator\\Program.cs",
               "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Program.cs",
               "RelativeToolTip": "Calculator\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T14:34:47.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Test.cs",
               "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Test.cs",
               "RelativeDocumentMoniker": "Calculator\\Test.cs",
               "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\Test.cs",
               "RelativeToolTip": "Calculator\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAhwGgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T15:04:35.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "log4net.config",
               "DocumentMoniker": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\log4net.config",
               "RelativeDocumentMoniker": "Calculator\\log4net.config",
-              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\log4net.config*",
-              "RelativeToolTip": "Calculator\\log4net.config*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\9_semestr\\Calculator\\Calculator\\Calculator\\log4net.config",
+              "RelativeToolTip": "Calculator\\log4net.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-12-10T15:00:36Z",
               "EditorCaption": ""

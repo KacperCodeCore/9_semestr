@@ -13,39 +13,25 @@ namespace Calculator
 
         static void Main(string[] args)
         {
-            Calculator.Add(5, 5);
-            Calculator.Add(5, 5);
-            Calculator.Add(5, 5);
-        }
-    }
+            log.Info("Program start");
 
-    internal static class Calculator
-    {
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        public static double Add(double a, double b)
-        {
-            log.Info("Adddddddddddd111111111!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!d");
-            return a + b;
-        }
-        public static double Subtract(double a, double b)
-        {
-            log.Info("Subtract");
-            return a - b;
-        }
-        public static double Multiply(double a, double b)
-        {
-            log.Info("Multiply");
-            return a * b;
-        }
-        public static double Divide(double a, double b)
-        {
-            log.Info("Divide");
-            return a / b;
-        }
-        public static double Power(double a, double b)
-        {
-            log.Info("Power");
-            return Math.Pow(a, b);
+
+            double a = Calculator.Subtract(5, 0);
+            double b = Calculator.Divide(7, 0);
+            double c = Calculator.Multiply(double.MaxValue, double.MinValue);
+            double d = Calculator.Power(double.MaxValue, double.MinValue);
+            
+            Console.WriteLine("Calculate my function: f(a + b + c + d)");
+            var result = a + b + c + d;
+            if(double.IsNaN(result))
+            {
+                log.Error("Fail");
+            }
+            else
+            {
+                log.Info("Succes");
+            }
+            Console.WriteLine(result.ToString());
         }
     }
 }

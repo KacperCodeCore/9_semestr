@@ -1,0 +1,719 @@
+2024-12-11 13:29:00,893 [1] INFO Calculator.Program - Program start
+2024-12-11 13:29:00,901 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:29:00,902 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:29:00,902 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:29:36,062 [1] INFO Calculator.Program - Program start
+2024-12-11 13:29:36,073 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:29:36,074 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:29:36,075 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:30:08,779 [1] INFO Calculator.Program - Program start
+2024-12-11 13:30:08,788 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:30:08,788 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:30:08,789 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:32:19,625 [1] INFO Calculator.Program - Program start
+2024-12-11 13:32:19,636 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:32:19,636 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:32:19,637 [1] INFO Calculator.Calculator - Add
+2024-12-11 13:32:37,984 [1] INFO Calculator.Program - Program start
+2024-12-11 13:32:37,994 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:33:41,919 [1] INFO Calculator.Program - Program start
+2024-12-11 13:33:41,929 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:34:17,230 [1] INFO Calculator.Program - Program start
+2024-12-11 13:34:17,243 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:34:17,243 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:34:59,603 [1] INFO Calculator.Program - Program start
+2024-12-11 13:34:59,612 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:34:59,612 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:35:32,399 [1] INFO Calculator.Program - Program start
+2024-12-11 13:35:32,409 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:35:32,410 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:35:32,410 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:35:52,869 [1] INFO Calculator.Program - Program start
+2024-12-11 13:35:52,877 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:35:52,878 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:35:52,878 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:39:26,026 [1] INFO Calculator.Program - Program start
+2024-12-11 13:39:26,036 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:39:26,037 [1] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 13:39:26,055 [1] ERROR Calculator.Calculator - System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 61
+2024-12-11 13:39:26,099 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:39:26,100 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:46:49,653 [1] INFO Calculator.Program - Program start
+2024-12-11 13:46:49,666 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:46:49,667 [1] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 13:46:49,678 [1] ERROR Calculator.Calculator - System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 65
+2024-12-11 13:46:49,721 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:46:49,721 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:46:49,721 [1] INFO Calculator.Calculator - Power
+2024-12-11 13:50:34,252 [1] INFO Calculator.Program - Program start
+2024-12-11 13:50:34,261 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 13:50:34,262 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:50:34,262 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:50:34,262 [1] INFO Calculator.Calculator - Power
+2024-12-11 13:50:46,948 [1] INFO Calculator.Program - Program start
+2024-12-11 13:50:46,957 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 13:50:46,958 [1] INFO Calculator.Calculator - Divide
+2024-12-11 13:50:46,958 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 13:50:46,959 [1] INFO Calculator.Calculator - Power
+2024-12-11 13:57:33,481 [1] INFO Calculator.Program - Program start
+2024-12-11 13:57:33,489 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 13:57:33,490 [1] ERROR Calculator.Calculator - Divide
+2024-12-11 13:57:33,490 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 13:57:33,490 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:01:20,013 [1] INFO Calculator.Program - Program start
+2024-12-11 14:01:20,021 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:01:20,022 [1] ERROR Calculator.Calculator - Divide
+2024-12-11 14:01:20,022 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:01:20,023 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:01:20,023 [1] INFO Calculator.Program - Succes
+2024-12-11 14:01:52,928 [1] INFO Calculator.Program - Program start
+2024-12-11 14:01:52,938 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:01:52,938 [1] ERROR Calculator.Calculator - Divide
+2024-12-11 14:01:52,939 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:01:52,939 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:01:52,939 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:03:56,321 [1] INFO Calculator.Program - Program start
+2024-12-11 14:03:56,330 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:03:56,330 [1] ERROR Calculator.Calculator - Divide
+2024-12-11 14:03:56,330 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:03:56,331 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:03:56,331 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:04:08,343 [1] INFO Calculator.Program - Program start
+2024-12-11 14:04:08,351 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:04:08,352 [1] ERROR Calculator.Calculator - Divide
+2024-12-11 14:04:08,352 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:04:08,353 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:04:08,353 [1] INFO Calculator.Program - Succes
+2024-12-11 14:04:16,622 [1] INFO Calculator.Program - Program start
+2024-12-11 14:04:16,633 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:04:16,634 [1] ERROR Calculator.Calculator - Divide
+2024-12-11 14:04:16,634 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:04:16,635 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:04:16,635 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:07:55,953 [1] INFO Calculator.Program - Program start
+2024-12-11 14:07:55,973 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:07:55,974 [1] ERROR Calculator.Calculator - Divide
+2024-12-11 14:07:55,975 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:07:55,976 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:07:55,977 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:08:34,460 [1] INFO Calculator.Program - Program start
+2024-12-11 14:08:34,472 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:08:34,473 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:08:34,474 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:08:34,474 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:09:26,335 [1] INFO Calculator.Program - Program start
+2024-12-11 14:09:26,342 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:09:26,343 [1] INFO Calculator.Calculator - Divide
+2024-12-11 14:09:26,343 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:09:26,343 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:09:26,344 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:09:49,334 [1] INFO Calculator.Program - Program start
+2024-12-11 14:09:49,343 [1] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:09:49,344 [1] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:09:49,356 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:09:49,394 [1] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:09:49,394 [1] ERROR Calculator.Calculator - Power
+2024-12-11 14:09:49,395 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:19:23,350 [10] INFO Calculator.Test - Add
+2024-12-11 14:19:23,356 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:19:23,397 [10] INFO Calculator.Test - Add
+2024-12-11 14:19:23,398 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:19:23,399 [10] INFO Calculator.Test - Add
+2024-12-11 14:19:23,399 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:19:23,401 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:23,402 [10] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:19:23,402 [10] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:19:23,407 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:23,407 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:19:23,409 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:23,409 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:19:23,409 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:23,409 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:19:23,410 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:19:23,410 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:19:23,411 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:19:23,412 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:19:23,413 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:19:23,413 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:19:23,414 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:19:23,415 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:19:23,416 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:19:23,416 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:19:23,417 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:19:23,417 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:19:23,418 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:19:23,419 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:19:23,427 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:19:23,428 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:19:23,429 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:19:23,429 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:19:37,837 [10] INFO Calculator.Test - Add
+2024-12-11 14:19:37,844 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:19:37,862 [10] INFO Calculator.Test - Add
+2024-12-11 14:19:37,863 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:19:37,864 [10] INFO Calculator.Test - Add
+2024-12-11 14:19:37,864 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:19:37,865 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:37,866 [10] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:19:37,866 [10] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:19:37,870 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:37,870 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:19:37,872 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:37,872 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:19:37,872 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:19:37,873 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:19:37,873 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:19:37,874 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:19:37,875 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:19:37,875 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:19:37,875 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:19:37,876 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:19:37,876 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:19:37,877 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:19:37,878 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:19:37,880 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:19:37,881 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:19:37,881 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:19:37,888 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:19:37,889 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:19:37,889 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:19:37,890 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:19:37,890 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:19:37,891 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:20:17,851 [10] INFO Calculator.Test - Add
+2024-12-11 14:20:17,858 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:20:17,879 [10] INFO Calculator.Test - Add
+2024-12-11 14:20:17,879 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:20:17,880 [10] INFO Calculator.Test - Add
+2024-12-11 14:20:17,880 [10] ERROR Calculator.Calculator - Add
+2024-12-11 14:20:17,882 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:20:17,883 [10] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:20:17,883 [10] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:20:17,886 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:20:17,887 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:20:17,888 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:20:17,889 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:20:17,889 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:20:17,889 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:20:17,890 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:20:17,890 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:20:17,891 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:20:17,892 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:20:17,893 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:20:17,893 [10] ERROR Calculator.Calculator - Power
+2024-12-11 14:20:17,894 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:20:17,895 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:20:17,896 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:20:17,896 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:20:17,897 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:20:17,897 [10] ERROR Calculator.Calculator - Subtract
+2024-12-11 14:20:17,903 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:20:17,903 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:20:17,905 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:20:17,905 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:20:17,906 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:20:17,906 [10] ERROR Calculator.Calculator - Multiply
+2024-12-11 14:22:34,666 [9] INFO Calculator.Test - Add
+2024-12-11 14:22:34,672 [9] INFO Calculator.Calculator - Add
+2024-12-11 14:22:34,678 [9] INFO Calculator.Test - Add
+2024-12-11 14:22:34,678 [9] INFO Calculator.Calculator - Add
+2024-12-11 14:22:34,679 [9] INFO Calculator.Test - Add
+2024-12-11 14:22:34,679 [9] INFO Calculator.Calculator - Add
+2024-12-11 14:22:34,680 [9] INFO Calculator.Test - DivideTest
+2024-12-11 14:22:34,681 [9] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:22:34,681 [9] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:22:34,717 [9] INFO Calculator.Test - DivideTest
+2024-12-11 14:22:34,718 [9] INFO Calculator.Calculator - Divide
+2024-12-11 14:22:34,718 [9] INFO Calculator.Test - DivideTest
+2024-12-11 14:22:34,718 [9] INFO Calculator.Calculator - Divide
+2024-12-11 14:22:34,719 [9] INFO Calculator.Test - DivideTest
+2024-12-11 14:22:34,719 [9] INFO Calculator.Calculator - Divide
+2024-12-11 14:22:34,720 [9] INFO Calculator.Test - PowerTest
+2024-12-11 14:22:34,720 [9] INFO Calculator.Calculator - Power
+2024-12-11 14:22:34,722 [9] INFO Calculator.Test - PowerTest
+2024-12-11 14:22:34,723 [9] INFO Calculator.Calculator - Power
+2024-12-11 14:22:34,724 [9] INFO Calculator.Test - PowerTest
+2024-12-11 14:22:34,724 [9] INFO Calculator.Calculator - Power
+2024-12-11 14:22:34,725 [9] INFO Calculator.Test - SubtractTest
+2024-12-11 14:22:34,726 [9] INFO Calculator.Calculator - Subtract
+2024-12-11 14:22:34,733 [9] INFO Calculator.Test - SubtractTest
+2024-12-11 14:22:34,733 [9] INFO Calculator.Calculator - Subtract
+2024-12-11 14:22:34,734 [9] INFO Calculator.Test - SubtractTest
+2024-12-11 14:22:34,734 [9] INFO Calculator.Calculator - Subtract
+2024-12-11 14:22:34,735 [9] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:22:34,735 [9] INFO Calculator.Calculator - Multiply
+2024-12-11 14:22:34,736 [9] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:22:34,736 [9] INFO Calculator.Calculator - Multiply
+2024-12-11 14:22:34,737 [9] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:22:34,737 [9] INFO Calculator.Calculator - Multiply
+2024-12-11 14:24:04,950 [7] INFO Calculator.Test - Add
+2024-12-11 14:24:04,956 [7] INFO Calculator.Calculator - Add
+2024-12-11 14:24:04,964 [7] INFO Calculator.Test - Add
+2024-12-11 14:24:04,965 [7] INFO Calculator.Calculator - Add
+2024-12-11 14:24:04,965 [7] INFO Calculator.Test - Add
+2024-12-11 14:24:04,965 [7] INFO Calculator.Calculator - Add
+2024-12-11 14:24:04,966 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:04,967 [7] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:24:04,967 [7] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:24:04,986 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:04,987 [7] INFO Calculator.Calculator - Divide
+2024-12-11 14:24:04,987 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:04,987 [7] INFO Calculator.Calculator - Divide
+2024-12-11 14:24:04,987 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:04,988 [7] INFO Calculator.Calculator - Divide
+2024-12-11 14:24:04,988 [7] INFO Calculator.Test - PowerTest
+2024-12-11 14:24:04,989 [7] INFO Calculator.Calculator - Power
+2024-12-11 14:24:04,989 [7] INFO Calculator.Test - PowerTest
+2024-12-11 14:24:04,990 [7] INFO Calculator.Calculator - Power
+2024-12-11 14:24:04,990 [7] INFO Calculator.Test - PowerTest
+2024-12-11 14:24:04,990 [7] INFO Calculator.Calculator - Power
+2024-12-11 14:24:04,991 [7] INFO Calculator.Test - SubtractTest
+2024-12-11 14:24:04,991 [7] INFO Calculator.Calculator - Subtract
+2024-12-11 14:24:04,993 [7] INFO Calculator.Test - SubtractTest
+2024-12-11 14:24:04,993 [7] INFO Calculator.Calculator - Subtract
+2024-12-11 14:24:05,009 [7] INFO Calculator.Test - SubtractTest
+2024-12-11 14:24:05,009 [7] INFO Calculator.Calculator - Subtract
+2024-12-11 14:24:05,010 [7] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:24:05,010 [7] INFO Calculator.Calculator - Multiply
+2024-12-11 14:24:05,011 [7] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:24:05,011 [7] INFO Calculator.Calculator - Multiply
+2024-12-11 14:24:05,011 [7] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:24:05,012 [7] INFO Calculator.Calculator - Multiply
+2024-12-11 14:24:37,342 [10] INFO Calculator.Test - Add
+2024-12-11 14:24:37,350 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:24:37,356 [10] INFO Calculator.Test - Add
+2024-12-11 14:24:37,357 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:24:37,357 [10] INFO Calculator.Test - Add
+2024-12-11 14:24:37,357 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:24:37,359 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:37,360 [10] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:24:37,360 [10] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:24:37,380 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:37,380 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:24:37,380 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:37,381 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:24:37,381 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:24:37,381 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:24:37,382 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:24:37,382 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:24:37,383 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:24:37,383 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:24:37,383 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:24:37,384 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:24:37,384 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:24:37,384 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:24:37,385 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:24:37,385 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:24:37,385 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:24:37,386 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:24:37,386 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:24:37,387 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:24:37,392 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:24:37,392 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:24:37,392 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:24:37,393 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:27:20,756 [10] INFO Calculator.Test - Add
+2024-12-11 14:27:20,763 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:27:20,769 [10] INFO Calculator.Test - Add
+2024-12-11 14:27:20,769 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:27:20,770 [10] INFO Calculator.Test - Add
+2024-12-11 14:27:20,770 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:27:20,771 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:27:20,772 [10] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:27:20,772 [10] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: Division by zero is not allowed.
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 102
+2024-12-11 14:27:20,803 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:27:20,804 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:27:20,804 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:27:20,804 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:27:20,804 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:27:20,805 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:27:20,805 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:27:20,805 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:27:20,806 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:27:20,806 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:27:20,807 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:27:20,807 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:27:20,807 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:27:20,808 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:27:20,808 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:27:20,808 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:27:20,809 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:27:20,809 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:27:20,809 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:27:20,810 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:27:20,815 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:27:20,815 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:27:20,816 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:27:20,816 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:29:43,758 [10] INFO Calculator.Test - Add
+2024-12-11 14:29:43,765 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:29:43,771 [10] INFO Calculator.Test - Add
+2024-12-11 14:29:43,772 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:29:43,772 [10] INFO Calculator.Test - Add
+2024-12-11 14:29:43,773 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:29:43,774 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:29:43,775 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:29:43,775 [10] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:29:43,805 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:29:43,805 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:29:43,806 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:29:43,806 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:29:43,806 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:29:43,806 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:29:43,807 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:29:43,807 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:29:43,808 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:29:43,808 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:29:43,809 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:29:43,809 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:29:43,810 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:29:43,810 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:29:43,811 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:29:43,811 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:29:43,811 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:29:43,812 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:29:43,812 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:29:43,812 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:29:43,819 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:29:43,820 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:29:43,820 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:29:43,820 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:30:44,452 [10] INFO Calculator.Test - Add
+2024-12-11 14:30:44,461 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:30:44,470 [10] INFO Calculator.Test - Add
+2024-12-11 14:30:44,470 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:30:44,471 [10] INFO Calculator.Test - Add
+2024-12-11 14:30:44,471 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:30:44,472 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:30:44,473 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:30:44,474 [10] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:30:44,475 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:30:44,476 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:30:44,476 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:30:44,476 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:30:44,477 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:30:44,477 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:30:44,477 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:30:44,478 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:30:44,479 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:30:44,479 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:30:44,479 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:30:44,479 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:30:44,480 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:30:44,480 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:30:44,481 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:30:44,482 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:30:44,483 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:30:44,483 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:30:44,484 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:30:44,484 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:30:44,485 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:30:44,485 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:30:44,486 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:30:44,486 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:31:39,700 [1] INFO Calculator.Program - Program start
+2024-12-11 14:31:39,709 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 14:31:39,710 [1] INFO Calculator.Calculator - Divide
+2024-12-11 14:31:39,710 [1] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:32:03,019 [1] INFO Calculator.Program - Program start
+2024-12-11 14:32:03,029 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 14:32:03,030 [1] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:32:03,037 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 110
+2024-12-11 14:32:03,067 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 14:32:03,067 [1] INFO Calculator.Calculator - Power
+2024-12-11 14:32:03,068 [1] ERROR Calculator.Program - Fail
+2024-12-11 14:32:11,156 [7] INFO Calculator.Test - Add
+2024-12-11 14:32:11,162 [7] INFO Calculator.Calculator - Add
+2024-12-11 14:32:11,168 [7] INFO Calculator.Test - Add
+2024-12-11 14:32:11,169 [7] INFO Calculator.Calculator - Add
+2024-12-11 14:32:11,169 [7] INFO Calculator.Test - Add
+2024-12-11 14:32:11,169 [7] INFO Calculator.Calculator - Add
+2024-12-11 14:32:11,170 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:32:11,171 [7] ERROR Calculator.Calculator - Attempted division by zero.
+2024-12-11 14:32:11,171 [7] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Program.cs:line 110
+2024-12-11 14:32:11,182 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:32:11,182 [7] INFO Calculator.Calculator - Divide
+2024-12-11 14:32:11,182 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:32:11,183 [7] INFO Calculator.Calculator - Divide
+2024-12-11 14:32:11,183 [7] INFO Calculator.Test - DivideTest
+2024-12-11 14:32:11,183 [7] INFO Calculator.Calculator - Divide
+2024-12-11 14:32:11,184 [7] INFO Calculator.Test - PowerTest
+2024-12-11 14:32:11,184 [7] INFO Calculator.Calculator - Power
+2024-12-11 14:32:11,184 [7] INFO Calculator.Test - PowerTest
+2024-12-11 14:32:11,185 [7] INFO Calculator.Calculator - Power
+2024-12-11 14:32:11,185 [7] INFO Calculator.Test - PowerTest
+2024-12-11 14:32:11,185 [7] INFO Calculator.Calculator - Power
+2024-12-11 14:32:11,186 [7] INFO Calculator.Test - SubtractTest
+2024-12-11 14:32:11,186 [7] INFO Calculator.Calculator - Subtract
+2024-12-11 14:32:11,187 [7] INFO Calculator.Test - SubtractTest
+2024-12-11 14:32:11,187 [7] INFO Calculator.Calculator - Subtract
+2024-12-11 14:32:11,187 [7] INFO Calculator.Test - SubtractTest
+2024-12-11 14:32:11,188 [7] INFO Calculator.Calculator - Subtract
+2024-12-11 14:32:11,188 [7] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:32:11,188 [7] INFO Calculator.Calculator - Multiply
+2024-12-11 14:32:11,199 [7] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:32:11,199 [7] INFO Calculator.Calculator - Multiply
+2024-12-11 14:32:11,200 [7] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:32:11,200 [7] INFO Calculator.Calculator - Multiply
+2024-12-11 14:32:47,040 [1] INFO Calculator.Program - Program start
+2024-12-11 14:32:47,049 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 14:32:47,049 [1] INFO Calculator.Calculator - Divide
+2024-12-11 14:32:47,050 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 14:33:24,649 [10] INFO Calculator.Test - Add
+2024-12-11 14:33:24,656 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:33:24,662 [10] INFO Calculator.Test - Add
+2024-12-11 14:33:24,662 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:33:24,663 [10] INFO Calculator.Test - Add
+2024-12-11 14:33:24,663 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:33:24,664 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:33:24,665 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:33:24,665 [10] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 14:33:24,667 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:33:24,667 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:33:24,668 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:33:24,668 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:33:24,668 [10] INFO Calculator.Test - DivideTest
+2024-12-11 14:33:24,668 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:33:24,669 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:33:24,669 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:33:24,670 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:33:24,670 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:33:24,671 [10] INFO Calculator.Test - PowerTest
+2024-12-11 14:33:24,671 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:33:24,671 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:33:24,672 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:33:24,672 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:33:24,673 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:33:24,673 [10] INFO Calculator.Test - SubtractTest
+2024-12-11 14:33:24,673 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:33:24,674 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:33:24,674 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:33:24,675 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:33:24,675 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:33:24,675 [10] INFO Calculator.Test - MultiplyTest
+2024-12-11 14:33:24,676 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:37:01,187 [10] INFO Calculator.TestCalculator - DivideTest
+2024-12-11 14:37:01,193 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:37:01,199 [10] INFO Calculator.TestCalculator - DivideTest
+2024-12-11 14:37:01,199 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:37:01,199 [10] INFO Calculator.TestCalculator - DivideTest
+2024-12-11 14:37:01,200 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:37:01,200 [10] INFO Calculator.TestCalculator - DivideTest
+2024-12-11 14:37:01,201 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:37:01,201 [10] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 14:37:01,202 [10] INFO Calculator.TestCalculator - PowerTest
+2024-12-11 14:37:01,203 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:37:01,204 [10] INFO Calculator.TestCalculator - PowerTest
+2024-12-11 14:37:01,204 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:37:01,204 [10] INFO Calculator.TestCalculator - PowerTest
+2024-12-11 14:37:01,205 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:37:01,205 [10] INFO Calculator.TestCalculator - Add
+2024-12-11 14:37:01,205 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:37:01,206 [10] INFO Calculator.TestCalculator - Add
+2024-12-11 14:37:01,206 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:37:01,207 [10] INFO Calculator.TestCalculator - Add
+2024-12-11 14:37:01,207 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:37:01,208 [10] INFO Calculator.TestCalculator - MultiplyTest
+2024-12-11 14:37:01,208 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:37:01,209 [10] INFO Calculator.TestCalculator - MultiplyTest
+2024-12-11 14:37:01,209 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:37:01,209 [10] INFO Calculator.TestCalculator - MultiplyTest
+2024-12-11 14:37:01,210 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:37:01,210 [10] INFO Calculator.TestCalculator - SubtractTest
+2024-12-11 14:37:01,210 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:37:01,217 [10] INFO Calculator.TestCalculator - SubtractTest
+2024-12-11 14:37:01,217 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:37:01,218 [10] INFO Calculator.TestCalculator - SubtractTest
+2024-12-11 14:37:01,218 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:50:17,067 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:50:17,079 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:50:17,080 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:50:17,081 [10] INFO Calculator.Calculator - Divide
+2024-12-11 14:50:17,081 [10] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 14:50:17,083 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:50:17,084 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:50:17,084 [10] INFO Calculator.Calculator - Power
+2024-12-11 14:50:17,085 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:50:17,085 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:50:17,086 [10] INFO Calculator.Calculator - Add
+2024-12-11 14:50:17,087 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:50:17,087 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:50:17,088 [10] INFO Calculator.Calculator - Multiply
+2024-12-11 14:50:17,088 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:50:17,089 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 14:50:17,090 [10] INFO Calculator.Calculator - Subtract
+2024-12-11 16:11:23,090 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:11:23,100 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:11:23,100 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:11:23,101 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:11:23,102 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:11:23,102 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:11:23,109 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:11:23,109 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:11:23,110 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:11:23,110 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:11:23,111 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:11:23,112 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:11:23,113 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:11:23,113 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:11:23,114 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:11:23,115 [14] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:11:23,116 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:32:17,391 [1] INFO Calculator.Program - Program start
+2024-12-11 16:32:17,404 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 16:32:17,404 [1] INFO Calculator.Calculator - Divide
+2024-12-11 16:32:17,405 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:33:33,041 [1] INFO Calculator.Program - Program start
+2024-12-11 16:33:33,049 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 16:33:33,049 [1] INFO Calculator.Calculator - Divide
+2024-12-11 16:33:33,050 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:33:33,065 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 16:33:33,065 [1] INFO Calculator.Calculator - Power
+2024-12-11 16:33:33,066 [1] ERROR Calculator.Program - Fail
+2024-12-11 16:52:13,417 [1] INFO Calculator.Program - Program start
+2024-12-11 16:52:13,427 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 16:52:13,427 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:52:13,435 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 16:52:13,463 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 16:52:13,463 [1] INFO Calculator.Calculator - Power
+2024-12-11 16:52:13,464 [1] ERROR Calculator.Program - Fail
+2024-12-11 16:53:05,725 [1] INFO Calculator.Program - Program start
+2024-12-11 16:53:05,734 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 16:53:05,735 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:53:05,743 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 16:53:05,767 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 16:53:05,767 [1] INFO Calculator.Calculator - Power
+2024-12-11 16:53:05,768 [1] ERROR Calculator.Program - Fail
+2024-12-11 16:53:31,036 [1] INFO Calculator.Program - Program start
+2024-12-11 16:53:31,045 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 16:53:31,046 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:53:31,054 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 16:53:31,076 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 16:53:31,076 [1] INFO Calculator.Calculator - Power
+2024-12-11 16:53:31,076 [1] ERROR Calculator.Program - Fail
+2024-12-11 16:54:10,684 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:54:10,694 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:54:10,695 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:54:10,695 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:54:10,696 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:54:10,703 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:54:10,704 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:54:10,705 [14] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:54:10,706 [14] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 16:54:10,712 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:54:10,712 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:54:10,713 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:54:10,713 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:54:10,714 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:54:10,715 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:54:10,715 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:54:10,716 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:54:51,661 [1] INFO Calculator.Program - Program start
+2024-12-11 16:54:51,671 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 16:54:51,672 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:54:51,680 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 16:54:51,707 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 16:54:51,707 [1] INFO Calculator.Calculator - Power
+2024-12-11 16:54:51,708 [1] ERROR Calculator.Program - Fail
+2024-12-11 16:55:14,829 [15] INFO Calculator.Calculator - Add
+2024-12-11 16:55:14,840 [15] INFO Calculator.Calculator - Add
+2024-12-11 16:55:14,841 [15] INFO Calculator.Calculator - Add
+2024-12-11 16:55:14,841 [15] INFO Calculator.Calculator - Subtract
+2024-12-11 16:55:14,847 [15] INFO Calculator.Calculator - Subtract
+2024-12-11 16:55:14,847 [15] INFO Calculator.Calculator - Subtract
+2024-12-11 16:55:14,847 [15] INFO Calculator.Calculator - Power
+2024-12-11 16:55:14,848 [15] INFO Calculator.Calculator - Power
+2024-12-11 16:55:14,848 [15] INFO Calculator.Calculator - Power
+2024-12-11 16:55:14,849 [15] INFO Calculator.Calculator - Multiply
+2024-12-11 16:55:14,850 [15] INFO Calculator.Calculator - Multiply
+2024-12-11 16:55:14,850 [15] INFO Calculator.Calculator - Multiply
+2024-12-11 16:55:14,851 [15] INFO Calculator.Calculator - Divide
+2024-12-11 16:55:14,851 [15] INFO Calculator.Calculator - Divide
+2024-12-11 16:55:14,852 [15] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:55:14,853 [15] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 16:55:14,858 [15] INFO Calculator.Calculator - Divide
+2024-12-11 16:59:12,539 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:59:12,548 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:59:12,549 [14] INFO Calculator.Calculator - Add
+2024-12-11 16:59:12,549 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:59:12,560 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:59:12,560 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 16:59:12,561 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:59:12,561 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:59:12,562 [14] INFO Calculator.Calculator - Power
+2024-12-11 16:59:12,562 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:59:12,563 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:59:12,563 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 16:59:12,564 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:59:12,565 [14] INFO Calculator.Calculator - Divide
+2024-12-11 16:59:12,566 [14] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 16:59:12,566 [14] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 16:59:12,574 [14] INFO Calculator.Calculator - Divide
+2024-12-11 17:04:16,292 [14] INFO Calculator.Calculator - Add
+2024-12-11 17:04:16,301 [14] INFO Calculator.Calculator - Add
+2024-12-11 17:04:16,302 [14] INFO Calculator.Calculator - Add
+2024-12-11 17:04:16,302 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 17:04:16,308 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 17:04:16,308 [14] INFO Calculator.Calculator - Subtract
+2024-12-11 17:04:16,309 [14] INFO Calculator.Calculator - Power
+2024-12-11 17:04:16,309 [14] INFO Calculator.Calculator - Power
+2024-12-11 17:04:16,310 [14] INFO Calculator.Calculator - Power
+2024-12-11 17:04:16,310 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 17:04:16,311 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 17:04:16,312 [14] INFO Calculator.Calculator - Multiply
+2024-12-11 17:04:16,312 [14] INFO Calculator.Calculator - Divide
+2024-12-11 17:04:16,313 [14] INFO Calculator.Calculator - Divide
+2024-12-11 17:04:16,314 [14] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 17:04:16,315 [14] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 17:04:16,320 [14] INFO Calculator.Calculator - Divide
+2024-12-11 17:07:34,589 [10] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 17:07:34,595 [10] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 17:12:00,751 [1] INFO Calculator.Program - Program start
+2024-12-11 17:12:00,762 [1] INFO Calculator.Calculator - Subtract
+2024-12-11 17:12:00,762 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-11 17:12:00,771 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-11 17:12:00,806 [1] INFO Calculator.Calculator - Multiply
+2024-12-11 17:12:00,807 [1] INFO Calculator.Calculator - Power
+2024-12-11 17:12:00,807 [1] ERROR Calculator.Program - Fail

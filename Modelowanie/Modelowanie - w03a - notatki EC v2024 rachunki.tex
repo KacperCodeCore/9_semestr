@@ -1,0 +1,364 @@
+﻿
+
+========Wolfram =====================================
+Plot3D[y^2 - x^3 + 5 x - 8, {x, -3, 3}, {y, -3, 3}]
+Plot[Sqrt[x^3 - 5 x + 8], {x, -3, 3}]
+PowerMod[ 3, -1, 37]
+Discriminant[,x]
+=====================================================
+Discrete Logarithm Problem (DLP)
+
+Dla danej liczby h i generatora r grupy (Z/pZ)^{*} znaleźć  m takie, że
+
+                             h = r^m  mod p
+
+Najlepszy znany algorytm rozwiązujący DLP na ciałem skończonym GF(p) wymaga czasu rzędu
+
+                O(e^{c ( (\log p) (\log \log p)^2 )^{1/3}})
+                
+(p-1) jest rzędem grupy cyklicznej (Z/pZ)^{*}.
+
+
+Elliptic Curve Discrete Logarithm Problem (ECDLP)
+Najlepszy znany algorytm rozwiązujący ECDLP na ciałem skończonym GF(p) wymaga czasu rzędu
+
+                    O( e^{ \log p )^{1/2} } )
+Algorytm Pollarda \rho.
+=====================================================
+
+Ogólna postać krzywej eliptycznej
+                    (x,y) \in Z, Q, R, C;
+               a1, ..., a6 \in Z, Q, R, C;
+          
+            y^2 + a1 x y +  a3 y = x^3 + a2 x^2 + a4 x + a6
+
+Standardowa postać krzywej eliptycznej E_{c} na powierzchni (x,y)
+
+                  y^2 = x^3 + a x + b
+
+Wyróżnik wielomianu  x^3 + a x + b       % Discriminant[x^3 + a x + b,x]
+
+              \Delta = -4 a^3 - 27 b^2
+
+Jeżeli \Delta !=  to równanie  x^3 + a x + b=0  ma trzy różne pierwiastki (nad C).
+Jeżeli \Delta >0  to równanie  x^3 + a x + b=0  ma trzy pierwiastki rzeczywiste.
+
+              \delta^2 = \Delta = -4 a^3 - 27 b^2
+              \delta = (x_0 - x_1)(x_0 - x_2)(x_1 - x_2)
+
+Punkty na krzywej E_{c}
+                        P = (x_p, y_q)
+                        Q = (x_q, y_q)
+
+      E_{c} = {(x,y)\in Rational : y^2 = x^3 + a x + b  } \cup {P_{\infty}}  (*)
+      
+==========
+Twierdzenie. (Poincare, 1900)
+              Dla E_{c} nad ciałem K zbiór punktów E_{c} tworzy grupę.
+
+==========
+Twierdzenie.
+            Dla E_{c} nad ciałem skończonym GF(q) zbiór punktów E_{c}
+            jest skończoną grupą cykliczną lub iloczynem prostym dwóch grup cyklicznych.
+
+Uwaga. Iloczyn prosty dwóch grup cyklicznych C_{m} x C_{n}
+       jest grupą cykliczną <=> gdy gcd(m,n)=1.
+
+==========
+Twierdzenie. (Mordell, 1922)
+                    Dla E_{c} nad ciałem liczb wymiernych Q, E_{c} jest grupą skończenie generowaną.
+
+Grupa skończenie generowana ma postać
+                       E_{c} = (grupa skończona) x Z x ... x Z
+
+==========
+Twierdzenie. (Siegel, 1928)
+                 Dla E_{c} nad pierścieniem liczb całkowitych Z,
+                 zbiór E_{c}(Z) ma skończoną liczbę elementów.
+
+==========
+Twierdzenie. (Mazura, 1977)
+              Skończona podgrupa w E_{c}(Q) musi być postaci (piętnaście grup)
+              C_{N},          N= 1,...,10, N=12
+              C_{2} x C_{2N}, N=1,..,4.
+Rząd skończonej podgrupy w E_{c}(Q) <=16.
+  
+==========================================================================
+Dodawanie punktów na krzywej E_{c}
+                         P, Q, P_{\infty} \in E_{c}
+
+1. P + P_{\infty} = P
+2. P + (-P) = P_{\infty}
+3. P + (Q + R) =  (P + Q) + R    (łączność dodawania)
+4. P + Q = Q + P                 (przemienność)
+
+==============
+                 y^2 = x^3 + a x + b
+                 
+1.  P != Q,  P=(x_p, y_p), Q=(x_q, y_q)
+
+2. P = Q,    x_p = x_q,  y_p = y_q != 0,
+
+3.  P = Q,   x_p = x_q,  y_p = - y_q
+==================
+            Dodawanie punktów na krzywej E_{c}
+===== 1.=====  P! = Q
+Suma punktów na E_{c}:
+                        P + Q = R', gdzie ' oznacza odbicie
+                        
+                        P + Q = R' = (x_r, -y_r) = (s^2 - x_p - x_q, - y_p + s (2 x_p + x_q - s^2) )
+gdzie
+                               s= (y_p - y_q)/(x_p - x_q)
+
+Równanie prostej      y = s x + d
+
+Warunek, że prosta przechodzi przez punkty P, Q ma postać
+                 
+                 y_p = s x_p + d
+                 y_q = s x_q + d   (*)
+                 
+Z warunków (*) wynika, że
+                s = (y_p - y_q)/(x_p - x_q)
+                d = (y_q x_p - y_p x_q)/(x_p - x_q)
+                                
+Warunek, że punkty leżą na E_{c} y^2 = x^3 + a x + b i prostej  y = s x + d oznacza
+
+                        (s x + d)^2 = x^3 + a x + b
+<=>
+                       x^3 − s^2 x^2 − 2 s d x + b x + c − d^2 = 0   (**)
+
+Punkty P, Q, R leżą na prostej i E_{c} więc sa zerami wielomianiu (**)
+     ( x − x_p ) ( x − x_q ) ( x − x_r ) = x^3 + ( − x_p − x_q − x_r ) x^2 + ( x_p x_q + x_p x_r + x_q x_r ) x − x_p x_q x_r
+
+Porównanie wspólczynników przy wielomianach
+     x^3 −                 s^2 x^2 +       (b  − 2 s d)              x +  c − d^2
+     x^3 - ( x_p + x_q + x_r ) x^2 + ( x_p x_q + x_p x_r + x_q x_r ) x − x_p x_q x_r
+
+             s^2 = x_p + x_q + x_r
+
+             x_r = s^2 - x_p - x_q  (*)
+   
+Z równania  s = (y_p - y_r)/(x_p - x_r) i (*) wynika   y_p - y_r =  s (x_p - x_r)
+ 
+            y_r = y_p - s (x_p - x_r)  (**)
+
+Współrzędne punktu R=(x_r, y_r),  P != Q
+
+               x_r = s^2 - x_p - x_q      (*)
+               y_r = y_p - s (x_p - x_r)  (**)
+gdzie
+               s= (y_p - y_q)/(x_p - x_q)
+lub
+           x_r = s^2 - x_p - x_q              (*)
+           y_r = y_p - s (2 x_p + x_q - s^2)  (**)
+
+Suma punktów na krzywej E_{c}:    P + Q = R', gdzie ' oznacza odbicie, P! = Q
+
+                P + Q = R' = (x_r, -y_r) = (s^2 - x_p - x_q, - y_p + s (2 x_p + x_q - s^2) )
+
+===== 2.===== x_p = x_q,  y_p = y_q  != 0,
+
+                 y^2 = x^3 + a x + b
+                 y = (x^3 + a x + b)^{1/2}
+                 
+Równie prostej przechodzącej przez P = (x_p, y_p)
+
+                         y = s (x - x_p) + y_p
+
+Styczna do krzywej w punkcie P=(x_p, y_p)
+
+                 s = dy/dx = (1/2) (3 x^2 + a)/(x^3 + a x + b)^{1/2}
+
+                 s = (3 x_p^2 + a)/ (2 y_p)
+
+Styczna do krzywej E_{c} w punkcie P=(x_p, y_p)
+                      y = s x + d
+gdzie
+         s = (3 x_p^2 + a)/(2 y_p)
+         d =  y_p - s x_p
+
+Ponieważ punkt R = (x_r, y_r) leży na krzywej E_{c} i prostej
+                x_r = s^2 - 2 x_p           (*)
+                y_r = y_p - s (x_p - x_r)  (**)
+
+Współrzędne punktu R = (x_r, y_r)  = (s^2 - 2 x_p,  y_p - s (x_p - x_r) )
+
+Suma punktów na krzywej E_{c}:    P + Q = R', gdzie ' oznacza odbicie, P = Q,  y_p=y_q
+   
+             (P + P) = R' = (x_r, - y_r)  = ( s^2 - 2 x_p, - y_p + s (x_p - x_r))
+             
+             R' = 2P = (x_{2p}, y_{2p}) = (x_r, - y_r)
+
+gdzie  s = (3 x_p^2 + a)/(2 y_p)
+
+===== 3.===== P = Q,    P = Q,   x_p = x_q,  y_p = - y_q
+               P + Q = P_{\infty}
+               
+===================
+Krzywa eliptyczna nad ciałem skończonym GF(q), q = p^k, k>0,  p={2, 3, 5, 7, ... }
+
+      E_{c} = { (x,y) \in GF(q)  : y^2 = x^3 + a x + b  } \cup {P_{\infty}}
+
+========================= Przykład 1.
+                            y^2 = x^3 - 5 x + 8 nad Q
+1. Niech P= (x_p, y_p) = (1, 2)
+         Q= (x_q, y_q) = (-7/4, -27/8)
+
+Wzór
+   P + Q = R' = (x_r, -y_r) = (s^2 - x_p - x_q, - y_p + s (2 x_p + x_q - s^2) )
+   
+   s = (y_p - y_q)/(x_p - x_q) = (43/8)/(11/4) = (43/2)(1/11) = 43/22
+
+   x_r = (43^2+3*11^2)/(11^2 4)  = 2212/(11^2 4) = 553/11^2= 553/121
+
+   y_r = y_p - s (x_p - x_r) = 2 - 43/22 (1 - 553/121) =  2 + 43*216/121*11 = 2 + 9288/1331 = 9288+2*11^3/11^3 = 11950/11^3 = 11950/1331
+
+wynik dodawania
+                   P + Q = R' = (553/121, -11950/1331)
+     
+Mathematica:
+           {yp - s (xp - xr)}/.{yp -> 2,  s-> 43/22, xp-> 1, xr-> 553/121} {11950/1331}
+            P + Q = R' = (553/121, -11950/1331)  OK
+
+2. Niech P= (x_p, y_p) = (1, 2), y^2 = x^3 - 5 x + 8
+Wzór
+      (P + P) = R' = (x_r, - y_r)  = ( s^2 - 2 x_p, - y_p + s (x_p - x_r))
+      s = (3 x_p^2 + a)/(2 y_p)
+      d = y_p - s x_p
+ 
+Mathematica:
+           s = {(3 xp^2 + a)/(2 yp)}/.{xp -> 1, yp-> 2, a-> -5}  {-(1/2)}
+     (P + P) = R' = { s^2 - 2 xp, - yp + s (3 xp - s^2)}/.{xp-> 1 , yp-> 2, s-> -(1/2)}  {-(7/4), -(27/8)}
+
+wynik dodawania dla P= (1, 2)
+             (P + P) = R' = {-(7/4), -(27/8)}
+
+3. Niech  2P = {-(7/4), -(27/8)}
+            (2P + 2P) = R'
+            
+Mathematica:
+           s = {(3 x_p^2 + a)/(2 y_p)}/.{x_p-> -(7/4), y_p-> -(27/8), a-> -5}
+   (2P + 2P) = R' = { s^2 - 2 x_p, - y_p + s (3 x_p - s^2)}/.{x_p-> , y_p-> , s-> }
+
+    s = {(3 xp^2 + a)/(2 yp)}/.{xp-> -(7/4), yp-> -(27/8), a-> -5} {-(67/108)}
+ (2P + 2P) = R' = { s^2 - 2 xp, - yp + s (3 xp - s^2)}/.{xp-> -(7/4), yp-> -(27/8), s-> {-(67/108)}} {{45313/11664}, {8655103/1259712}}
+
+wynik dodawania dla 2P = {-(7/4), -(27/8)}
+                  (2P + 2P) = R' = { 45313/11664,  8655103/1259712 }
+======================================================
+
+========================= Przykład. GF(q) = GF(37) = Z/37Z.
+                              y^2 = x^3 - 5 x + 8 nad Z/37Z
+                              
+                    y^2 = x^3 - 5 x + 8   mod 37  E(F_{37})
+1. Niech  P= (x_p, y_p) = (6,3)
+          Q= (x_q, y_q) = (9, 10)
+
+Sprawdzenie, że P, Q in E_{c}(Z/37Z)
+Mathematica:
+          Mod[ {y^2 - x^3 + 5 x - 8}/.{y->3, x-> 6}, 37]  {0}
+          Mod[ {y^2 - x^3 + 5 x - 8}/.{y->10, x-> 9}, 37] {0}
+
+Wzór
+   P + Q = R' = (x_r, -y_r) = (s^2 - x_p - x_q, - y_p + s (2 x_p + x_q - s^2) ) mod 37
+      
+Mathematica:
+  s = Mod[{(yp - yq)/(xp - xq)}/.{xp->6, yp->3, xq->9, yq->10 }, 37] {7/3} = 27
+      PowerMod[ 3, -1, 37] 25
+      s =  Mod[ 7*25 , 37] = 27
+
+wynik dodawania
+  P+Q =  Mod[{ s^2 - xp - xq, - yp + s (2 xp + xq - s^2)}/.{ xp-> 6, yp-> 3, xq-> 9, yq-> 10, s-> 27 }, 37] {11, 10}
+  P+Q =  {11, 10}
+
+2. Niech  P= (x_p, y_p) = (6,3)
+
+Wzór
+      (P + P) = R' = (x_r, - y_r)  = ( s^2 - 2 x_p, - y_p + s (x_p - x_r))
+      s = (3 x_p^2 + a)/(2 y_p)
+
+Mathematica:
+       s = Mod[{(3 xp^2 + a)/(2 yp)}/.{xp -> 6, yp-> 3, a-> -5}, 37] {103/6} =  11
+       PowerMod[6, -1, 37] 31
+        Mod[103*31,37] 11
+
+wynik dodawania
+ (P + P) = Mod[ { s^2 - 2 xp, - yp + s (3 xp - s^2)}/.{xp-> 6 , yp-> 3, s-> 11}, 37] {35, 11}
+ 2P= {35, 11}
+
+3. Niech  2P= {35, 11}
+Mathematica:
+        s = Mod[{(3 xp^2 + a)/(2 yp)}/.{xp -> 35, yp-> 11, a-> -5}, 37] {207/11} = 2
+        PowerMod[11, -1, 37] 27
+        s= Mod[207*27,37] 2
+wynik dodawania
+    (2P + 2P) = Mod[ { s^2 - 2 xp, - yp + s (3 xp - s^2) }/.{xp-> 35 , yp-> 11, s-> 2}, 37] {8, 6}
+    (2P + 2P) = {8, 6}
+==============
+Krzywa eliptyczna E(Z/37Z}) y^2 = x^3 - 5 x + 8 nad Z/37Z jest grupą o 45 elementach.
+
+E(Z/37Z)= { (x,y) : (1,2),  (5,21), (6,3),  (8,6),  (9,27), (10,25), (11,27), (12,23), (16,19), (17,27), (19,1),
+                    (20,8), (21,5), (22,1), (26,8), (28,8), (30,25), (31,9),  (33,1),  (34,25), (35,26), (36,7),
+                    (1,-2), ..., (36,-7),
+                    P_{\infty}    }
+
+Grupa E(Z/37Z)  = C_{3} x C_{15} jest produktem (iloczynem prostym) cyklicznej grupy rzędu 3 i rzędu 15.
+
+Uwaga. Iloczyn prosty dwóch grup cyklicznych C_{m} x C_{n} jest grupą cykliczną <=> gdy gcd(m,n)=1.
+
+Przykład 1.  Z/(mn)Z ~ Z/(m)Z x Z/(n)Z  <=> gcd(m,n)=1.
+Przykład 2.  Z/(12)Z ~ Z/(3)Z x Z/(4)Z.
+
+Jak policzyć rząd  E(Z/37Z).
+
+Obliczamy wszystkie wartości  x^3 - 5 x + 8 mod 37,    x \in Z/37Z = {0,1,2,3 ..., 36}
+                      Table[Mod[k^3- 5 k + 8, 37], {k,0,36}]
+Jest ich  25
+        {1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 17, 18, 19, 20, 22, 25, 26, 27, 28, 31, 33, 34, 35, 36}
+        
+Odrzucamy te liczby które nie są kwadratem mod 37 lub równoważnie zostają tylko kwadraty mod 37.
+                   {1,    4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 17, 18, 19, 20, 22, 25, 26, 27, 28, 31, 33, 34, 35, 36}
+Kwadraty mod 37    {1, 3, 4,       7,    9, 10, 11, 12, 16, 21,                 25, 26, 27, 28, 30, 33, 34,     36}
+
+              x = {1, 5, 6, 8, 9, 10, 11, 12, 16, 17, 19, 20, 21, 22, 26, 28, 30, 31, 33, 34, 35, 36} 22 elementy
+           dla których x^3 - 5 x + 8 mod 37 jest kwadratem.
+
+====== algorytm Diffie-Hellman na grupie E(Z/pZ)
+Definicja D-H.
+A: (r, a, p), para kluczy  Pub(r^a, r, p), Priv(a, r, p)
+B: (r, b, p), para kluczy  Pub(r^b, r, p), Priv(b, r, p)
+
+Obliczenie
+              r^b mod p
+na E(Z/pZ) to
+             b P = {P + ... + P}_{b razy} in E(Z/pZ)
+-------------------------------
+==================================================================================================
+
+Table[Mod[k,37], {k,0,36}]           #{0, 1, 2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36}
+Table[Mod[k,37], {k,0,36}]            { , 1,  ,   ,   ,  5,  6,   ,  8,  9, 10, 11, 12,   ,   ,   , 16, 17,   , 19, 20, 21, 22,   ,   ,   , 26,   , 28,   , 30, 31,   , 33, 34, 35, 36}
+Table[Mod[k^3- 5 k + 8,37], {k,0,36}] {8, 4, 6, 20, 15, 34,  9, 20, 36, 26, 33, 26, 11, 31, 18, 15, 28, 26, 15,  1, 27, 25,  1, 35, 22,  5, 27, 20, 27, 17, 33,  7, 19,  1, 33, 10, 12}
+Table[Mod[k^2,37], {k,0,36}]          {0, 1, 4,  9, 16, 25, 36, 12, 27,  7, 26, 10, 33, 21, 11,  3, 34, 30, 28, 28, 30, 34,  3, 11, 21, 33, 10, 26,  7, 27, 12, 36, 25, 16,  9,  4,  1}
+                                     #{0, 1, 2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36}
+                                  k^2 {0, 1, 3, 4, 7, 9, 10, 11, 12, 16, 21, 25, 26, 27, 28, 30, 33, 34, 36}
+                     y  = {   2,            21,  3,      6, 10, 12, 25, 14,             19, 10,      1   8,  5,  1               8       8      12   9       1  11      28}
+                   W(x) = { , 4,  ,   ,   , 34,  9,   , 36, 26, 33, 26, 11,   ,   ,   , 28, 26,   ,  1, 27, 25,  1,   ,   ,   , 27,   , 27,   , 33,  7,   ,  1, 33, 10, 12}
+                      x = {0, 1, 2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36}
+                              *              *   *       *   *   *   *   *               *   *       *   *   *   *               *       *       *   *       *   *   *   *
+                      x = {   1,             5,  6,      8,  9, 10, 11, 12,             16, 17,     19, 20, 21, 22,             26,     28,     30, 31,     33, 34, 35, 36}
+                      x = {1, 5, 6, 8, 9, 10, 11, 12, 16, 17, 19, 20, 21, 22, 26, 28, 30,  31, 33, 34, 35, 36}
+                      
+W(x)=   { , 1,  ,   ,   ,  5,  6,   ,  8,  9, 10, 11, 12,   ,   ,   , 16, 17,   , 19, 20, 21, 22,   ,   ,   , 26,   , 28,   , 30, 31,   , 33, 34, 35, 36}
+   y=   {8, 4, 6, 20, 15, 34,  9, 20, 36, 26, 33, 26, 11, 31, 18, 15, 28, 26, 15,  1, 27, 25,  1, 35, 22,  5, 27, 20, 27, 17, 33,  7, 19,  1, 33, 10, 12}
+Mod[13*13,37] 21
+----
+W(x) Sort[{8, 4, 6, 20, 15, 34,  9, 20, 36, 26, 33, 26, 11, 31, 18, 15, 28, 26, 15,  1, 27, 25,  1, 35, 22,  5, 27, 20, 27, 17, 33,  7, 19,  1, 33, 10, 12}]
+          {1, 1, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 15, 15, 17, 18, 19, 20, 20, 20, 22, 25, 26, 26, 26, 27, 27, 27, 28, 31, 33, 33, 33, 34, 35, 36}
+   Length[{1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 17, 18, 19, 20, 22, 25, 26, 27, 28, 31, 33, 34, 35, 36}] 25
+
+Sort[{0, 1, 4,  9, 16, 25, 36, 12, 27,  7, 26, 10, 33, 21, 11,  3, 34, 30, 28, 28, 30, 34,  3, 11, 21, 33, 10, 26,  7, 27, 12, 36, 25, 16,  9,  4,  1}]
+     {0, 1, 1, 3, 3, 4, 4, 7, 7, 9, 9, 10, 10, 11, 11, 12, 12, 16, 16, 21, 21, 25, 25, 26, 26, 27, 27, 28, 28, 30, 30, 33, 33, 34, 34, 36, 36}
+==================================================================================================
+=========================
+Discriminant[x^3 - 5 x + 2,x] 392
+=========================

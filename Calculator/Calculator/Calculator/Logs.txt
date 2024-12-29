@@ -717,3 +717,76 @@ System.DivideByZeroException: typeof(System.DivideByZeroException)
 2024-12-11 17:12:00,806 [1] INFO Calculator.Calculator - Multiply
 2024-12-11 17:12:00,807 [1] INFO Calculator.Calculator - Power
 2024-12-11 17:12:00,807 [1] ERROR Calculator.Program - Fail
+2024-12-29 18:06:16,340 [1] INFO Calculator.Program - Program start
+2024-12-29 18:06:16,365 [1] INFO Calculator.Calculator - Subtract
+2024-12-29 18:06:16,365 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-29 18:06:16,382 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-29 18:06:16,486 [1] INFO Calculator.Calculator - Multiply
+2024-12-29 18:06:16,486 [1] INFO Calculator.Calculator - Power
+2024-12-29 18:06:16,487 [1] ERROR Calculator.Program - Fail
+2024-12-29 18:28:50,255 [1] INFO Calculator.Program - Program start
+2024-12-29 18:28:50,264 [1] INFO Calculator.Calculator - Subtract
+2024-12-29 18:28:50,264 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-29 18:28:50,273 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-29 18:28:50,309 [1] INFO Calculator.Calculator - Multiply
+2024-12-29 18:28:50,309 [1] INFO Calculator.Calculator - Power
+2024-12-29 18:28:50,309 [1] ERROR Calculator.Program - Fail
+2024-12-29 18:29:18,753 [1] INFO Calculator.Program - Program start
+2024-12-29 18:29:18,761 [1] INFO Calculator.Calculator - Subtract
+2024-12-29 18:29:18,761 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-29 18:29:18,774 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-29 18:29:18,806 [1] INFO Calculator.Calculator - Multiply
+2024-12-29 18:29:18,806 [1] INFO Calculator.Calculator - Power
+2024-12-29 18:29:18,807 [1] ERROR Calculator.Program - Fail
+2024-12-29 18:29:23,390 [1] INFO Calculator.Program - Program start
+2024-12-29 18:29:23,399 [1] INFO Calculator.Calculator - Subtract
+2024-12-29 18:29:23,399 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-29 18:29:23,409 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-29 18:29:23,438 [1] INFO Calculator.Calculator - Multiply
+2024-12-29 18:29:23,438 [1] INFO Calculator.Calculator - Power
+2024-12-29 18:29:23,439 [1] ERROR Calculator.Program - Fail
+2024-12-29 18:29:50,746 [1] INFO Calculator.Program - Program start
+2024-12-29 18:29:50,753 [1] INFO Calculator.Calculator - Subtract
+2024-12-29 18:29:50,754 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-29 18:29:50,763 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-29 18:29:50,795 [1] INFO Calculator.Calculator - Multiply
+2024-12-29 18:29:50,795 [1] INFO Calculator.Calculator - Power
+2024-12-29 18:29:50,796 [1] ERROR Calculator.Program - Fail
+2024-12-29 18:50:56,254 [1] INFO Calculator.Program - Program start
+2024-12-29 18:50:56,264 [1] INFO Calculator.Calculator - Subtract
+2024-12-29 18:50:56,264 [1] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-29 18:50:56,275 [1] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-29 18:50:56,305 [1] INFO Calculator.Calculator - Multiply
+2024-12-29 18:50:56,305 [1] INFO Calculator.Calculator - Power
+2024-12-29 18:50:56,305 [1] ERROR Calculator.Program - Fail
+2024-12-29 18:51:23,759 [16] INFO Calculator.Calculator - Add
+2024-12-29 18:51:23,768 [16] INFO Calculator.Calculator - Add
+2024-12-29 18:51:23,769 [16] INFO Calculator.Calculator - Add
+2024-12-29 18:51:23,769 [16] INFO Calculator.Calculator - Subtract
+2024-12-29 18:51:23,770 [16] INFO Calculator.Calculator - Subtract
+2024-12-29 18:51:23,770 [16] INFO Calculator.Calculator - Subtract
+2024-12-29 18:51:23,771 [16] INFO Calculator.Calculator - Power
+2024-12-29 18:51:23,771 [16] INFO Calculator.Calculator - Power
+2024-12-29 18:51:23,772 [16] INFO Calculator.Calculator - Power
+2024-12-29 18:51:23,772 [16] INFO Calculator.Calculator - Multiply
+2024-12-29 18:51:23,773 [16] INFO Calculator.Calculator - Multiply
+2024-12-29 18:51:23,773 [16] INFO Calculator.Calculator - Multiply
+2024-12-29 18:51:23,774 [16] INFO Calculator.Calculator - Divide
+2024-12-29 18:51:23,775 [16] INFO Calculator.Calculator - Divide
+2024-12-29 18:51:23,776 [16] ERROR Calculator.Calculator - Attempted division by zero
+2024-12-29 18:51:23,776 [16] ERROR Calculator.Calculator - Divide
+System.DivideByZeroException: typeof(System.DivideByZeroException)
+   at Calculator.Calculator.Divide(Double a, Double b) in D:\GitHub\9_semestr\Calculator\Calculator\Calculator\Calculator\Calculator.cs:line 72
+2024-12-29 18:51:23,795 [16] INFO Calculator.Calculator - Divide

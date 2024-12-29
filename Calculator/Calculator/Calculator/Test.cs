@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Sdk;
 using Moq;
+using System.IO;
 
 
 namespace Calculator
@@ -100,6 +101,39 @@ namespace Calculator
             var result = orderService.GetProductById(1);
 
             Assert.Equal(sampleProduct, result);
+        }
+    }
+    
+    public class StringHelperTest
+    {
+        public static IEnumerable<Object[]> GetPalindromData()
+        {
+            var csvPath = Path.Combine(AppContext.BaseDirectory, "../../../StringHelper/palindromes.csv");
+            string fileContext = File.ReadAllText(csvPath);
+
+            var PalindromBools = fileContext.Split(" ");
+
+            foreach (var item in PalindromBools)
+            {
+                var part = item.Split(",");
+
+                if (part.Length == 2)
+                {
+                    string input = part[0].Trim();
+                    bool expected = bool.Parse(part[1].Trim());
+
+                    yield return new object[] { input, expected };
+                }
+            }
+
+        }
+
+        [Theory]
+        [MemberData(nameof(GetPalindromData))]
+        public void IsPalindom_ShouldReturnExpectedResult(string input, bool expected)
+        {
+            bool result = StringHelper.IsPalindrome(input);
+            Assert.Equal(result, expected);
         }
     }
 }

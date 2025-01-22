@@ -6,7 +6,7 @@
 #########################################################################################################
 # -*- coding:  windows-1250 -*-
 import itertools
-import   random
+import random
 
 ###########################################################
 ##### Lista wykorzystanych Metod ##########################
@@ -36,7 +36,7 @@ import   random
 ##### Count                      ##########################
 ###########################################################
 
-'''
+"""
 import math
 
 def countPrzyklad():
@@ -45,20 +45,20 @@ def countPrzyklad():
         list(math.cos(next(citerator)) for _ in range(30)))
         
 countPrzyklad();    
-'''
+"""
 ###########################################################
 ##### islice                                        #######
 ###########################################################
-'''
+"""
 wynik = itertools.islice(range(22),0,22,3)
 wynik = itertools.islice(range(22),5)
 for element in wynik:
     print(element)
-'''
+"""
 
 
-'''
-# wygenerował GPT4
+"""
+
 def process_lines(filename, start, stop, step):
     with open(filename, 'r') as file:
         # Use islice to read every 'step' line between 'start' and 'stop'
@@ -69,11 +69,11 @@ def process_lines(filename, start, stop, step):
 # Example usage
 # This will read every 10th line from lines 100 to 200 in the file
 process_lines('large_text_file.txt', start=10, stop=20, step=2)
-'''
+"""
 ###########################################################
 ##### Cycle                                         #######
 ###########################################################
-'''
+"""
 def cyclePrzyklad():
     data = [100,200,300,400]
     cyciterator=(itertools.cycle(data))
@@ -90,23 +90,23 @@ def cyclePrzyklad():
 cyclePrzyklad()
 
 # Zaczerpnięte z https://docs.python.org/3/library/itertools.html#itertools.count
-'''
+"""
 
 
 def roundRobin(*iterowalny):
-    
+
     liczbaNieobsluzonychProcesow = len(iterowalny)
     # ciekawa konstrukcja -- branie kolejnego iteratora w cyklu
     nastepniki = itertools.cycle(iter(it).__next__ for it in iterowalny)
-    #print(next(nastepniki))
-    #print(next(nastepniki))
-    #print(next(nastepniki))
-    #print(next(nastepniki))
-    #itx = next(nastepniki)
-    #print(itx())
-    #print(itx())
-    #print(itx())
-    
+    # print(next(nastepniki))
+    # print(next(nastepniki))
+    # print(next(nastepniki))
+    # print(next(nastepniki))
+    # itx = next(nastepniki)
+    # print(itx())
+    # print(itx())
+    # print(itx())
+
     while liczbaNieobsluzonychProcesow:
         try:
             for nastepny in nastepniki:
@@ -114,15 +114,17 @@ def roundRobin(*iterowalny):
                 yield nastepny()
 
         except StopIteration:
-            #print("@@@",next(nastepniki),"@@@")
+            # print("@@@",next(nastepniki),"@@@")
             # Usuń itertor który nie ma już po czym iterować.
             # Jeśli trzeci jest pierwszy to drugi jest ostatni!
             liczbaNieobsluzonychProcesow -= 1
             print(liczbaNieobsluzonychProcesow)
-            nastepniki = itertools.cycle(itertools.islice(nastepniki, liczbaNieobsluzonychProcesow))
+            nastepniki = itertools.cycle(
+                itertools.islice(nastepniki, liczbaNieobsluzonychProcesow)
+            )
 
 
-generator = roundRobin('ABC', 'D', 'EF')
+generator = roundRobin("ABC", "D", "EF")
 for literka in generator:
     print(literka)
     print(end="")
@@ -132,10 +134,10 @@ for literka in generator:
 ###########################################################
 
 ##### Wydrukuj co czwartę liczbę mniejszą od stu ##########
-'''
+"""
 print([i for i in range(100) if i % 4 == 0])
 print([[0 for _ in range(5)] for _ in range(5)])
-'''
+"""
 
 ###########################################################
 ##### Combinatoral Iterators                        #######
@@ -148,7 +150,7 @@ print([[0 for _ in range(5)] for _ in range(5)])
 ##### Cito numOfLoc: Możemy pojechać do numOfLoc jednocześnie    #####
 ##### PriceLimit: Możemy zapłacić  PriceLimit                    #####
 ##### ItemsReq:  Potrzebujemy zebrać liczbę przedmiotów ItemsReq #####
-''''
+"""'
 def combinationAndPermutationExample():
 
     letters = ['a','b','c','d','e', 'f', 'g']
@@ -169,8 +171,8 @@ def combinationAndPermutationExample():
         print(item)
 
 combinationAndPermutationExample()
-'''
-'''
+"""
+"""
 def Sums(ItemsLocations, ComboIterEl):
     Sums = tuple(sum(y) for y in zip(*[ItemsLocations[A] for A in  ComboIterEl]))
     return Sums
@@ -207,13 +209,13 @@ def findGoodEnoughCombinationOfItemsLocation():
     
                           
 findGoodEnoughCombinationOfItemsLocation()
-'''
+"""
 ###########################################################
 
 ###########################################################
 ##### Zadanie #############################################
 ###########################################################
 
-# Wygenerować sensowne przykłady dla funkcji IterTools 
-# zaznaczonych na liście jako -. Preferujemy złożoność 
+# Wygenerować sensowne przykłady dla funkcji IterTools
+# zaznaczonych na liście jako -. Preferujemy złożoność
 # scenariusza ostatniego z tego pliku.

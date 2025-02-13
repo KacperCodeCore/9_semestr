@@ -225,28 +225,28 @@ context("automation test store", () => {
     cy.get(".tab.active > :nth-child(6)").should("be.visible");
   });
 
-  it.only("12 Wykonaj operacje na elementach, takie jak przeciąganie i upuszczanie, i sprawdź, czy działają poprawnie. ", () => {
-    cy.visit("https://material.angular.io/cdk/drag-drop/examples");
+  it("12 Wykonaj operacje na elementach, takie jak przeciąganie i upuszczanie, i sprawdź, czy działają poprawnie. ", () => {
+    cy.visit("https://www.w3schools.com/html/html5_draganddrop.asp");
     cy.wait(2000);
-    cy.get('[cdkdraglockaxis="x"]').move({ x: 200, y: 0 });
-
-    // cy.get("#drag1")
-    //   .trigger("mousedown", { which: 1 }) // Click and hold the element
-    //   .trigger("dragstart"); // Start dragging
-
-    // cy.get("#div2")
-    //   .trigger("dragenter") // Enter the drop target
-    //   .trigger("dragover") // Hover over the drop target
-    //   .trigger("drop"); // Drop the dragged element
-
-    // cy.get("#drag1").trigger("dragend"); // End the drag operation
-
-    // cy.get("#drag1")
-    //   .trigger("mousedown", { which: 0 })
-    //   .trigger("mousemove", { clientX: 200, clientY: 0 });
-    // cy.get("#div2").trigger("mousemove").trigger("drop");
+    cy.get("#accept-choices").click();
+    cy.scrollTo(0, -1000);
+    cy.get("#drag1")
+      .drag("#div2")
+      .then((success) => {
+        assert.isTrue(success);
+      });
   });
-  it("d 13 Przejdź przez proces logowania przy użyciu nieprawidłowych danych i sprawdź, czy otrzymujesz odpowiednie komunikaty błędów. ", () => {
+
+  it("12", () => {
+    cy.visit("https://material.angular.io/cdk/drag-drop/examples");
+
+    cy.get('[cdkdraglockaxis="x"]').move({
+      deltaX: 300,
+      force: true,
+    });
+  });
+
+  it("dz 13 Przejdź przez proces logowania przy użyciu nieprawidłowych danych i sprawdź, czy otrzymujesz odpowiednie komunikaty błędów. ", () => {
     cy.get('[href="https://dobreziele.pl/logowanie"]').click();
     clickPopup();
 
@@ -260,24 +260,166 @@ context("automation test store", () => {
       "Błędny e-mail lub hasło!"
     );
   });
-  it("14 Sprawdź, czy strona jest responsywna i poprawnie wyświetla się na różnych urządzeniach. ", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  it("st 13", () => {
+    cy.get(".top-account > a").click();
+    cy.get("#username").type("sdsdsd");
+    cy.get("#password").type("dsdsd");
+    cy.get(":nth-child(3) > .woocommerce-button").click();
+    cy.get(".woocommerce-error").should("be.visible");
   });
-  it("15 Zweryfikuj, czy przyciski i linki na stronie prowadzą do odpowiednich miejsc. ", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  it("st 14 Sprawdź, czy strona jest responsywna i poprawnie wyświetla się na różnych urządzeniach. ", () => {
+    const viewports = [
+      { device: "Desktop", width: 1450, height: 800 },
+      { device: "Tablet", width: 768, height: 1024 },
+      { device: "Mobile", width: 375, height: 667 },
+    ];
+
+    viewports.forEach(({ device, width, height }) => {
+      cy.log(`Sprawdzam widok na: ${device}`);
+      cy.viewport(width, height);
+
+      cy.get("header").should("be.visible");
+      cy.get("footer").should("be.visible");
+
+      cy.wait(500);
+    });
   });
-  it("", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  it("mo 14", () => {
+    const viewports = [
+      { device: "Desktop", width: 1450, height: 800 },
+      { device: "Tablet", width: 768, height: 1024 },
+      { device: "Mobile", width: 375, height: 667 },
+    ];
+
+    viewports.forEach(({ device, width, height }) => {
+      cy.log(`Sprawdzam widok na: ${device}`);
+      cy.viewport(width, height);
+
+      cy.get("header").should("be.visible");
+      cy.get("footer").should("be.visible");
+
+      cy.wait(500);
+    });
   });
-  it("16 Sprawdź, czy elementy na stronie są poprawnie wyświetlane po zmianie rozmiaru okna przeglądarki. ", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  it("st 15 Zweryfikuj, czy przyciski i linki na stronie prowadzą do odpowiednich miejsc. ", () => {
+    cy.get("#menu-item-142 > a").click();
+    cy.url().should("eq", "https://skleptest.pl/blog/");
+    cy.wait(500);
+    cy.get("#menu-item-128 > a").click();
+    cy.url().should("eq", "https://skleptest.pl/product-category/most-wanted/");
+    cy.wait(500);
+    cy.get(".dropdown-toggle").click();
+    cy.url().should("eq", "https://skleptest.pl/");
   });
-  it("17 Przejdź przez proces resetowania hasła i sprawdź, czy nowe hasło zostało poprawnie ustawione. ", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  it("mo 15", () => {
+    cy.get(":nth-child(3) > a > .h-menu-item-value").click();
+    cy.url().should("eq", "https://lp.morele.net/wyprzedaz-ostatnich-sztuk/");
+
+    cy.visit("https://www.morele.net/");
+    cy.wait(2000);
+
+    cy.get(":nth-child(4) > a > .h-menu-item-value").click();
+    cy.url().should(
+      "eq",
+      "https://www.morele.net/kategoria/procesory-45/?konfigurator=konfigurator-zestawu-komputerowego#configurator"
+    );
+  });
+
+  it("mo 16 Sprawdź, czy elementy na stronie są poprawnie wyświetlane po zmianie rozmiaru okna przeglądarki. ", () => {
+    const viewports = [
+      { device: "Desktop", width: 1450, height: 800 },
+      { device: "Tablet", width: 768, height: 1024 },
+      { device: "Mobile", width: 375, height: 667 },
+    ];
+
+    viewports.forEach(({ device, width, height }) => {
+      cy.log(`Sprawdzam widok na: ${device}`);
+      cy.viewport(width, height);
+
+      cy.get("header").should("be.visible");
+      cy.wait(500);
+    });
+  });
+
+  it("st 16", () => {
+    const viewports = [
+      { device: "Desktop", width: 1450, height: 800 },
+      { device: "Tablet", width: 768, height: 1024 },
+      { device: "Mobile", width: 375, height: 667 },
+    ];
+
+    viewports.forEach(({ device, width, height }) => {
+      cy.log(`Sprawdzam widok na: ${device}`);
+      cy.viewport(width, height);
+
+      cy.get("header").should("be.visible");
+      cy.wait(500);
+    });
+  });
+  it("st 17 Przejdź przez proces resetowania hasła i sprawdź, czy nowe hasło zostało poprawnie ustawione. ", () => {
+    cy.get(".top-account > a").click();
+    cy.get(".woocommerce-LostPassword > a").click();
+    cy.get("#user_login").type("rogirec105@rykone.com");
+    cy.get(".woocommerce-Button").click();
+    cy.get(".woocommerce-message").should("be.visible");
+  });
+
+  it("mo 17", () => {
+    cy.visit("https://www.morele.net/login");
+    cy.get(".actions > .btn-primary").click();
+    cy.get(".remember-me > a").click();
+    cy.get("#reset_password_email").type("rogirec105@rykone.com");
+    cy.get(":nth-child(6) > .btn").click();
+    cy.get(".form-control-error").should("be.visible");
   });
   it("18 Sprawdź, czy aplikacja poprawnie obsługuje różne języki i tłumaczenia. ", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    cy.visit("https://www.ungm.org/");
+    const languages = [
+      { number: 0, name: "English" },
+      { number: 1, name: "French" },
+      { number: 2, name: "Spanish" },
+    ];
+
+    languages.forEach(({ number, name }) => {
+      cy.get("#language-selector").select(number);
+      cy.reload(); // Odświeżenie strony, jeśli jest to konieczne
+      cy.get("body").should("contain.text", name);
+      cy.wait(500);
+    });
   });
+
+  it("18", () => {
+    cy.visit(
+      "https://usosweb.uni.opole.pl/kontroler.php?_action=news%2Fdefault&amp%3Blang=pl&lang=en"
+    );
+
+    cy.get("h1").should("contain", "University of Opole");
+
+    cy.visit(
+      "https://usosweb.uni.opole.pl/kontroler.php?_action=news%2Fdefault&amp%3Blang=pl&lang=pl"
+    );
+    cy.get("h1").should("contain", "Uniwersytetu Opolskiego");
+  });
+
+  describe.only("19 Wykonaj testy na różnych przeglądarkach i sprawdź, czy aplikacja działa poprawnie na każdej z nich. ", () => {
+    const browsers = ["chrome", "edge", "firefox"]; // Lista przeglądarek
+
+    browsers.forEach((browser) => {
+      it(`Zadanie 19 - Test na przeglądarce: ${browser}`, () => {
+        cy.visit("https://skleptest.pl");
+        cy.viewport(1366, 768);
+
+        // Sprawdzenie widoczności nagłówka na stronie
+        cy.get("#recent-posts-2").should("be.visible"); // Nagłówek strony
+      });
+    });
+  });
+
   it("19 Wykonaj testy na różnych przeglądarkach i sprawdź, czy aplikacja działa poprawnie na każdej z nich. ", () => {
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   });

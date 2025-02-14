@@ -180,7 +180,7 @@ describe("Testowanie", () => {
     cy.get("#billing_address_1").type("g1233");
     cy.get("#billing_postcode").type("46-100");
     cy.get("#billing_city").type("3123");
-    cy.get("#place_order").type("3123");
+    cy.get("#place_order").type("3123"); //
   });
 
   it("Zadanie 8 v2", () => {

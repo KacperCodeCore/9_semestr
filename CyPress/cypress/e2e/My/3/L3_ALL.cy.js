@@ -89,10 +89,24 @@ context("automation test store", () => {
     cy.get('[href="https://dobreziele.pl/wyloguj"]').should("be.visible");
   });
 
+  it("mo 1", () => {
+    cy.visit("https://www.morele.net/login/");
+    cy.get(".actions > .btn-primary").click();
+    cy.get("#username").type("emailtylkodokalendarza@gmail.com");
+    cy.get("#password-log").type("dfhgjxdvgwf4tywefaegwt34");
+    cy.get("#login_form > .btn-primary-2").click();
+    cy.url().should("eq", "https://www.morele.net/");
+  });
+
   it("dz 2 powinien przejsc na stronę główną aplikacji/strony internetowej i sprawdź, czy wyświetlane są oczekiwane elementy.", () => {
     // clickPopup();
     cy.get(".page-start > :nth-child(11)").should("be.visible");
     cy.get(".page-start > :nth-child(14)").should("be.visible");
+  });
+
+  it("mo 2", () => {
+    cy.get(".header-fixed").should("be.visible");
+    cy.get("#horizontal_navigation > ul").should("be.visible");
   });
 
   it("dz 3 powinien wyszukać element na stronie przy użyciu selektorów CSS i zweryfikuj, czy jest obecny (5 różnych typów).", () => {
@@ -107,6 +121,19 @@ context("automation test store", () => {
       '.container > :nth-child(1) > .id-5 > [href="https://dobreziele.pl/sklep/zestawy"]'
     ).should("be.visible");
   });
+
+  it("mo 3", () => {
+    cy.get(".h-contact-control > .h-control-btn > .h-control-btn-label").should(
+      "be.visible"
+    );
+    cy.get(".h-basket-control > .btn-link > .h-control-btn-label").should(
+      "be.visible"
+    );
+    cy.get(
+      ".h-quick-search > .h-quick-search-box > .morele-autocomplete > .ma-result-wrapper > .h-quick-search-dropdown > .morele-dropdown > .md-top > .md-button"
+    ).should("be.visible");
+  });
+
   it("dz 4 Kliknij na przycisk i sprawdź, czy akcja została wykonana poprawnie (3 przyciski na stronę).", () => {
     cy.get(".container > :nth-child(1) > .menu-newest > a").click();
     clickPopup();
@@ -125,6 +152,17 @@ context("automation test store", () => {
     cy.get(".breadcrumbs").should("contain", "Zestawy");
   });
 
+  it("st 4", () => {
+    cy.get("#menu-item-142 > a").click();
+    cy.url().should("eq", "https://skleptest.pl/blog/");
+    cy.wait(500);
+    cy.get("#menu-item-128 > a").click();
+    cy.url().should("eq", "https://skleptest.pl/product-category/most-wanted/");
+    cy.wait(500);
+    cy.get(".dropdown-toggle").click();
+    cy.url().should("eq", "https://skleptest.pl/");
+  });
+
   it("dz 5 Wypełnij formularz na stronie i zweryfikuj, czy dane zostały poprawnie zapisane. ", () => {
     cy.get('[href="https://dobreziele.pl/logowanie"]').click();
     clickPopup();
@@ -136,12 +174,29 @@ context("automation test store", () => {
     cy.get('[href="https://dobreziele.pl/wyloguj"]').should("be.visible");
   });
 
+  it("5", () => {
+    cy.visit("https://www.morele.net/login/");
+    cy.get(".actions > .btn-primary").click();
+    cy.get("#username").type("emailtylkodokalendarza@gmail.com");
+    cy.get("#password-log").type("dfhgjxdvgwf4tywefaegwt34");
+    cy.get("#login_form > .btn-primary-2").click();
+    cy.url().should("eq", "https://www.morele.net/");
+  });
+
   it("dz 6 Przejdź na inną stronę w aplikacji/stronie i sprawdź, czy URL został zmieniony. ", () => {
     cy.get(
       '.container > :nth-child(1) > .id-1 > [href="https://dobreziele.pl/sklep/bombille"]'
     ).click();
     clickPopup();
     cy.url().should("equal", "https://dobreziele.pl/sklep/bombille");
+  });
+
+  it("st 6", () => {
+    cy.get("#menu-item-142 > a").click();
+    cy.url().should("eq", "https://skleptest.pl/blog/");
+    cy.wait(500);
+    cy.get("#menu-item-128 > a").click();
+    cy.url().should("eq", "https://skleptest.pl/product-category/most-wanted/");
   });
 
   it("mo 7 Sprawdź, czy na stronie wyświetlane są oczekiwane dane z bazy danych (w miarę możliwości). ", () => {
@@ -156,6 +211,18 @@ context("automation test store", () => {
     cy.get(".order-list-empty").should("be.visible");
   });
 
+  it("dz 7", () => {
+    cy.visit("https://skleptest.pl/my-account/");
+    cy.get("#username").type("emailtylkodokalendarza@gmail.com");
+    cy.get("#password").type("dfhgjxdvgwf4tywefaegwt34");
+    cy.get(":nth-child(3) > .woocommerce-button").click();
+    cy.get(".woocommerce-MyAccount-navigation-link--orders > a").click();
+    cy.get(".woocommerce-orders-table__cell-order-number").should(
+      "include",
+      "8457"
+    );
+  });
+
   it("dz 8 Przejdź przez proces zakupowy w sklepie internetowym i sprawdź, czy zamówienie zostało poprawnie złożone (później je anulować, bez płatności). ", () => {
     cy.get(".tab.active").should("be.visible");
     cy.get(
@@ -164,6 +231,22 @@ context("automation test store", () => {
     clickPopup();
     cy.get(".basket").click();
     cy.get(".basket-box > span").should("be.visible");
+  });
+
+  it("8", () => {
+    cy.visit("https://skleptest.pl/my-account/");
+    cy.get("#username").type("emailtylkodokalendarza@gmail.com");
+    cy.get("#password").type("dfhgjxdvgwf4tywefaegwt34");
+    cy.get(":nth-child(3) > .woocommerce-button").click();
+    cy.get(".woocommerce-MyAccount-navigation-link--orders > a").click();
+    cy.get("#desktop-menu > #menu-item-142 > a").click();
+    cy.get(".top-cart > a").click();
+    cy.get(".checkout-button").click();
+    cy.get("#billing_first_name").type("Jan");
+    cy.get("#billing_last_name").type("Kowalski");
+    cy.get("#billing_address_1").type("kwiatkowa 2");
+    cy.get("#billing_postcode").type("45-020");
+    cy.get("#billing_city").type("Opole");
   });
 
   it("st 9 Przejdź przez proces rejestracji użytkownika i sprawdź, czy nowe konto zostało utworzone. ", () => {
@@ -406,24 +489,75 @@ context("automation test store", () => {
     cy.get("h1").should("contain", "Uniwersytetu Opolskiego");
   });
 
-  describe.only("19 Wykonaj testy na różnych przeglądarkach i sprawdź, czy aplikacja działa poprawnie na każdej z nich. ", () => {
-    const browsers = ["chrome", "edge", "firefox"]; // Lista przeglądarek
+  it("st 19 Wykonaj testy na różnych przeglądarkach i sprawdź, czy aplikacja działa poprawnie na każdej z nich.", () => {
+    // cypress run --browser edge
+    // cypress run --browser chrome
 
-    browsers.forEach((browser) => {
-      it(`Zadanie 19 - Test na przeglądarce: ${browser}`, () => {
-        cy.visit("https://skleptest.pl");
-        cy.viewport(1366, 768);
+    cy.visit("https://skleptest.pl/");
+    cy.get("#menu-item-118 > a").click();
+    cy.url().should("eq", "https://skleptest.pl/test-contact-blablabla/");
+  });
 
-        // Sprawdzenie widoczności nagłówka na stronie
-        cy.get("#recent-posts-2").should("be.visible"); // Nagłówek strony
-      });
+  it("mo 19", () => {
+    // cypress run --browser edge
+    // cypress run --browser chrome
+
+    cy.wait(1000);
+    cy.get(":nth-child(4) > a > .h-menu-item-value").click();
+    cy.url().should(
+      "eq",
+      "https://www.morele.net/kategoria/procesory-45/?konfigurator=konfigurator-zestawu-komputerowego#configurator"
+    );
+  });
+
+  it("dz 20 Zweryfikuj, czy na stronie nie ma żadnych błędów w konsoli przeglądarki. ", () => {
+    let consoleErrors = [];
+
+    cy.on("window:console:error", (err) => {
+      consoleErrors.push(err);
+    });
+
+    cy.visit("https://dobreziele.pl/logowanie");
+    clickPopup();
+
+    cy.get("#login_f1").type("emailtylkodrza@gmail.com");
+    cy.get("#login_f2").type("dfhgjxdvgwwefaegwt34");
+    cy.get(":nth-child(2) > form > div.tr > button").click();
+
+    clickPopup();
+    cy.get(":nth-child(2) > .alert").should(
+      "contain",
+      "Błędny e-mail lub hasło!"
+    );
+
+    cy.then(() => {
+      expect(consoleErrors).to.be.empty;
     });
   });
 
-  it("19 Wykonaj testy na różnych przeglądarkach i sprawdź, czy aplikacja działa poprawnie na każdej z nich. ", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  });
-  it("20 Zweryfikuj, czy na stronie nie ma żadnych błędów w konsoli przeglądarki. ", () => {
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  it.only("mo 20", () => {
+    let consoleErrors = [];
+
+    cy.on("window:console:error", (err) => {
+      consoleErrors.push(err);
+    });
+
+    const viewports = [
+      { device: "Desktop", width: 1450, height: 800 },
+      { device: "Tablet", width: 768, height: 1024 },
+      { device: "Mobile", width: 375, height: 667 },
+    ];
+
+    viewports.forEach(({ device, width, height }) => {
+      cy.log(`Sprawdzam widok na: ${device}`);
+      cy.viewport(width, height);
+
+      cy.get("header").should("be.visible");
+      cy.wait(500);
+    });
+
+    cy.then(() => {
+      expect(consoleErrors).to.be.empty;
+    });
   });
 });

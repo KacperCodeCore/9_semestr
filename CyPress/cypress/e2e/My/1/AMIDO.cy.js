@@ -9,7 +9,7 @@ context("automationteststore", () => {
   });
 
   it("1. Odwiedzenie strony i sprawdzenie tytułu Odwiedź stronę główną aplikacji i sprawdź, czy tytuł strony jest poprawny.", () => {
-    // cy.visit('https://amido.com.pl/')
+    // cy.visit('https://amido.com.pl/' )
     cy.title().should("equal", "Hurtownia spożywcza online Warszawa");
   });
 
